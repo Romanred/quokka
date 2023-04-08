@@ -3,7 +3,7 @@
 # Requires Docker v17.05
 
 # Base image for build and runtime
-FROM python:3.7-slim-stretch AS base
+FROM python:3.10.10-slim AS base
 LABEL maintainer="Eric Ho <dho.eric@gmail.com>"
 
 WORKDIR /usr/src/app
