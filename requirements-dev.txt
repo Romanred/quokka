@@ -12,3 +12,4 @@ twine>=1.9.1
 wheel>=0.30.0
 flask>=1.0
 logzero
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
